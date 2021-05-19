@@ -1,0 +1,30 @@
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1% auto 1% auto;
+}
+
+.logo{
+    margin-left: 7%;
+    font-weight: bold;
+}
+
+.links{
+    margin-right: 11%;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+li{
+    margin: auto 5% auto 5%;
+    font-weight: bold;
+}
+
+li:hover{
+    color: red;
+}

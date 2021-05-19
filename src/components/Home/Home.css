@@ -1,0 +1,61 @@
+.home{
+    display: flex;
+    justify-content: space-between;
+    height: 85vh;
+    background-color: #caf7f180;
+    width: 90%;
+    margin: auto 5%;
+    border-radius: 45px;
+}
+
+h1{
+    font-size: 5rem;
+    line-height: 1;
+}
+
+.headText1{
+    color: rgb(33, 34, 34);
+}
+
+.headText2{
+    color: #786beb;
+}
+
+.headPar{
+    color: rgb(88, 86, 86);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.headBut1{
+    background-color: slateblue;
+    padding: 20px 30px;
+    border: none;
+    color: white;
+    font-size: 1.3rem;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+
+.headBut2{
+    background-color: slateblue;
+    padding: 20px 30px;
+    border: none;
+    color: white;
+    font-size: 1.3rem;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+
+.leftContent{
+    flex: 0.6;
+    margin: 6% 5% auto 5%;
+}
+
+.rightContent{
+    flex: 0.4;
+}
+
+.homeIllusrtration{
+    margin: 20% auto auto auto;
+}
