@@ -3,11 +3,6 @@ import './Header.css'
 
 const Header = () => {
 
-    const [linkStyle, setLinkStyle] = useState(false);
-
-    const linkStyleHandler = () =>{
-        setLinkStyle({linkStyle:true})
-    }
 
     return (
         <div className="header">
