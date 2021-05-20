@@ -1,0 +1,43 @@
+.successStory{
+    display: flex;
+    margin-top: 5%;
+}
+
+.leftStorySection{
+    flex:.5;
+    padding-left: 5%;
+}
+
+.rightStorySection{
+    flex:.5;
+    padding-right: 5%;
+}
+
+.successStoryHead1{
+    color:#f55c47;
+    font-size: 1.7rem;
+}
+
+
+.successStoryHead2{
+    font-size: 3rem;
+}
+
+
+.successStoryPar{
+    color:gray;
+    font-weight: bold;
+    line-height: 2;
+    font-size: 1rem;
+}
+
+.headBut2{
+    background-color: slateblue;
+    padding: 20px 30px;
+    border: none;
+    color: white;
+    font-size: 1.3rem;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 20px;
+}

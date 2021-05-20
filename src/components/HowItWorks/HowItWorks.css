@@ -1,0 +1,52 @@
+.howItWorks{
+    margin-top: 5%;
+}
+.howItWorksHead1{
+    font-size:1.7rem;
+    margin-left:7%;
+    color:#3f3697;
+}
+
+.howItWorksHead2{
+    font-size:3rem;
+    margin-left:7%;
+}
+
+.workItems{
+    display: flex;
+    margin-top: 5%;
+}
+
+.item {
+    margin: auto 7% auto 7%;
+    text-align: center;
+}
+.itemStyle1{
+    background:#f5cebe;
+    width:130px;
+    height:130px;
+    border-radius:50%;
+    margin-left: 25%;
+}
+
+.itemStyle2{
+    background:#d2e69c;
+    width:130px;
+    height:130px;
+    border-radius:50%;
+    margin-left: 25%;
+}
+
+.itemStyle3{
+    background:#ead3cb;
+    width:130px;
+    height:130px;
+    border-radius:50%;
+    margin-left: 25%;
+}
+
+.itemImg{
+    width:80px;
+    height: 80px;
+    margin: 25px;
+}
