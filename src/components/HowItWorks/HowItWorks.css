@@ -1,6 +1,7 @@
 .howItWorks{
     margin-top: 5%;
 }
+
 .howItWorksHead1{
     font-size:1.7rem;
     margin-left:7%;
@@ -20,7 +21,10 @@
 .item {
     margin: auto 7% auto 7%;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
+
 .itemStyle1{
     background:#f5cebe;
     width:130px;
@@ -49,4 +53,117 @@
     width:80px;
     height: 80px;
     margin: 25px;
+}
+
+
+@media screen and (max-width: 1020px) {
+    .howItWorksHead1{
+        font-size:1.4rem;
+    } 
+    
+    .howItWorksHead2{
+        font-size:2.5rem;
+    }
+
+    .item {
+        margin: auto 4% auto 4%;
+        text-align: center;
+        font-size: .9rem;
+    }
+    .itemStyle1{
+        background:#f5cebe;
+        width:110px;
+        height:110px;
+        border-radius:50%;
+        margin-left: 25%;
+    }
+    
+    .itemStyle2{
+        background:#d2e69c;
+        width:110px;
+        height:110px;
+        border-radius:50%;
+        margin-left: 25%;
+    }
+    
+    .itemStyle3{
+        background:#ead3cb;
+        width:110px;
+        height:110px;
+        border-radius:50%;
+        margin-left: 25%;
+    }
+    
+    .itemImg{
+        width:60px;
+        height: 60px;
+        margin: 23px;
+    }
+}
+
+
+@media screen and (max-width: 620px) {
+
+    .howItWorks{
+        margin-top: 15%;
+    }
+
+    
+    .howItWorksHead1{
+        font-size:1rem;
+    } 
+    
+    .howItWorksHead2{
+        font-size:1.8rem;
+    }
+
+    .workItems{
+        display: flex;
+        margin-top: 5%;
+        flex-direction: column;
+    }
+
+    .item {
+        margin: auto;
+        text-align: center;
+        font-size: .9rem;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .itemCont{
+        text-align: left;
+        margin-left: 5%;
+        margin-left: 3%;
+    }
+
+    .itemStyle1{
+        background:#f5cebe;
+        width:100px;
+        height:100px;
+        border-radius:50%;
+        margin-left: 5%;
+    }
+    
+    .itemStyle2{
+        background:#d2e69c;
+        width:100px;
+        height:100px;
+        border-radius:50%;
+        margin-left: 5%;
+    }
+    
+    .itemStyle3{
+        background:#ead3cb;
+        width:100px;
+        height:100px;
+        border-radius:50%;
+        margin-left: 5%;
+    }
+    
+    .itemImg{
+        width:60px;
+        height: 60px;
+        margin: 23px;
+    }
 }

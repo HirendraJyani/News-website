@@ -1,0 +1,287 @@
+.aboutApp{
+    
+    margin-top: 100px;
+}
+
+.aboutAppSections{
+    margin-top: 50px;
+    display: flex;
+}
+
+.aboutHead1{
+    color: mediumblue;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.aboutHead2{
+    font-size: 2.5rem;
+    text-align: center;
+    margin: auto 20% auto 20%;
+}
+
+.leftAboutSection{
+    flex: .4;
+    margin-left: 10%;
+}
+
+.rightAboutSection{
+    flex: .6;
+}
+
+.aboutHead3{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: auto 20% 20px 20%;
+    text-align: left;
+}
+
+.aboutHead4{
+    font-size: 1rem;
+    font-weight: bold;
+    color: gray;
+    text-align: center;
+    margin: auto 20% auto 20%;
+    line-height: 1.8;
+    text-align: left
+}
+
+.aboutItems{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutItemSect{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.aboutItems2{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+.aboutItemSect2{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.aboutItemStyle1{
+    background:#ebf5be;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    margin-left: 20%;
+    margin-right: 20px;
+}
+
+.aboutItemStyle2{
+    background:#f5cebe;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    margin-left: 20%;
+    margin-right: 20px;
+}
+
+.aboutItemStyle3{
+    background:#bec2f5;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    margin-left: 20%;
+    margin-right: 20px;
+}
+
+.aboutItemStyle4{
+    background:#f5bec3;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    margin-left: 20%;
+    margin-right: 20px;
+}
+
+.aboutItemImg{
+    width:30px;
+    height: 30px;
+    margin: 10px;
+}
+
+
+@media screen and (max-width: 1020px) {
+    
+    .aboutHead1{
+        font-size: 1.1rem;
+    }
+    
+    .aboutHead2{
+        font-size: 2rem;
+        margin: auto 20% auto 20%;
+    }
+
+    .aboutAppSections{
+        margin-top: 30px;
+    }
+
+    .aboutHead3{
+        font-size: 1.2rem;
+    }
+    
+    .aboutHead4{
+        font-size: .8rem;
+    }
+
+    .aboutItems{
+        margin-top: 30px;
+        font-size: .9rem;
+    }
+    
+    .aboutItemSect{
+        margin-bottom: 10px;
+    }
+
+    .aboutItems2{
+        margin-top: 30px;
+        font-size: .9rem;
+        display: none;
+    }
+    
+    .aboutItemSect2{
+        margin-bottom: 10px;
+    }
+    
+    .aboutItemStyle1{
+        background:#ebf5be;
+        width:40px;
+        height:40px;
+        border-radius:50%;
+        margin-left: 20%;
+        margin-right: 20px;
+    }
+    
+    .aboutItemStyle2{
+        background:#f5cebe;
+        width:40px;
+        height:40px;
+        border-radius:50%;
+        margin-left: 20%;
+        margin-right: 20px;
+    }
+    
+    .aboutItemStyle3{
+        background:#bec2f5;
+        width:40px;
+        height:40px;
+        border-radius:50%;
+        margin-left: 20%;
+        margin-right: 20px;
+    }
+    
+    .aboutItemStyle4{
+        background:#f5bec3;
+        width:40px;
+        height:40px;
+        border-radius:50%;
+        margin-left: 20%;
+        margin-right: 20px;
+    }
+    
+    .aboutItemImg{
+        width:20px;
+        height: 20px;
+        margin: 10px;
+    }
+}
+
+
+@media screen and (max-width: 620px) {
+    
+    .aboutHead1{
+        font-size: 1rem;
+    }
+    
+    .aboutHead2{
+        font-size: 1.7rem;
+        margin: auto 8% auto 8%;
+    }
+
+    .aboutAppSections{
+        margin-top: 30px;
+    }
+
+    .aboutHead3{
+        font-size: 1.2rem;
+    }
+    
+    .aboutHead4{
+        font-size: .8rem;
+    }
+
+    .aboutItems{
+        margin-top: 30px;
+        font-size: .7rem;
+        display: none;
+    }
+    
+    .aboutItemSect{
+        margin-bottom: 10px;
+    }
+
+    .aboutItems2{
+        margin-top: 10px;
+        font-size: .9rem;
+        display: flex;
+    }
+    
+    .aboutItemSect2{
+        margin-bottom: 10px;
+    }
+    
+    .aboutItemStyle1{
+        background:#ebf5be;
+        width:40px;
+        height:40px;
+        border-radius:50%;
+        margin-left: 20%;
+        margin-right: 20px;
+    }
+    
+    .aboutItemStyle2{
+        background:#f5cebe;
+        width:40px;
+        height:40px;
+        border-radius:50%;
+        margin-left: 20%;
+        margin-right: 20px;
+    }
+    
+    .aboutItemStyle3{
+        background:#bec2f5;
+        width:40px;
+        height:40px;
+        border-radius:50%;
+        margin-left: 20%;
+        margin-right: 20px;
+    }
+    
+    .aboutItemStyle4{
+        background:#f5bec3;
+        width:40px;
+        height:40px;
+        border-radius:50%;
+        margin-left: 20%;
+        margin-right: 20px;
+    }
+    
+    .aboutItemImg{
+        width:20px;
+        height: 20px;
+        margin: 10px;
+    }
+}

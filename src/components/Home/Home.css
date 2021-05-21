@@ -9,7 +9,7 @@
 }
 
 h1{
-    font-size: 5rem;
+    font-size: 480%;
     line-height: 1;
 }
 
@@ -44,7 +44,7 @@ h1{
     cursor: pointer;
 }
 
-.headBut2{
+.headBut3{
     background-color: slateblue;
     padding: 20px 30px;
     border: none;
@@ -55,21 +55,90 @@ h1{
     transition: transform .5s;
 }
 
-.headBut2:hover{
+.headBut3:hover{ 
     
     transform: scale(1.1,1.1);
     cursor: pointer;
 }
 
 .leftContent{
-    flex: 0.6;
+    flex: 0.5;
     margin: 5% 5% auto 5%;
 }
 
 .rightContent{
-    flex: 0.4;
+    flex: 0.5;
 }
 
 .homeIllusrtration{
     margin: 20% auto auto auto;
+}
+
+@media screen and (max-width: 1020px) {
+
+    .leftContent{
+        flex: 0.5;
+        margin: 15% 5% auto 5%;
+    }
+
+    h1{
+        font-size: 300%;
+        line-height: 1;
+    }
+
+    .headPar{
+        color: rgb(88, 86, 86);
+        font-size: 1.1rem;
+        font-weight: bold;
+    }
+
+    .headBut1{
+        padding: 10px 15px;
+        font-size: 1.1rem;
+        border-radius: 10px;
+    }
+    
+    .headBut3{
+        padding: 10px 15px;
+        font-size: 1rem;
+        border-radius: 10px;
+        margin-left: 10px;
+    }
+    
+}
+
+
+@media screen and (max-width: 620px) {
+    
+    .leftContent{
+        flex: 0.5;
+        margin: 30% 5% auto 5%;
+    }
+
+    h1{
+        font-size: 150%;
+        line-height: 1;
+    }
+
+    .headPar{
+        color: rgb(88, 86, 86);
+        font-size: .7rem;
+        font-weight: bold;
+    }
+
+    .headBut1{
+        padding: 10px 15px;
+        font-size: .6rem;
+        border-radius: 10px;
+        margin-left: 10px;
+        
+        margin-top: 10px;
+    }
+    
+    .headBut3{
+        padding: 10px 15px;
+        font-size: .6rem;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
 }

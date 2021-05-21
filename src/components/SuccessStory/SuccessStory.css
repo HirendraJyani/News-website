@@ -40,4 +40,77 @@
     border-radius: 15px;
     margin-top: 20px;
     margin-left: 20px;
+    transition: transform .5s;
+}
+
+.headBut2:hover{
+    
+    transform: scale(1.1,1.1);
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 1020px) {
+    
+.successStoryHead1{
+    font-size: 1.4rem;
+}
+
+
+.successStoryHead2{
+    font-size: 2.5rem;
+}
+
+.successStoryPar{
+    color:gray;
+    font-weight: bold;
+    line-height: 1.7;
+    font-size: .9rem;
+}
+
+.headBut2{
+    background-color: slateblue;
+    padding: 10px 15px;
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    transition: transform .5s;
+}
+
+}
+
+
+@media screen and (max-width: 620px) {
+       
+.successStoryHead1{
+    font-size: 1rem;
+}
+
+
+.successStoryHead2{
+    font-size: 1.8rem;
+    line-height: 1.1;
+}
+
+.successStoryPar{
+    color:gray;
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: .7rem;
+}
+
+.headBut2{
+    background-color: slateblue;
+    padding: 10px 15px;
+    border: none;
+    color: white;
+    font-size: .7rem;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    transition: transform .5s;
+}
 }
