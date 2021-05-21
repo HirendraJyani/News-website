@@ -7,14 +7,14 @@ const Header = () => {
     return (
         <div className="header">
             <nav>
-                <div className="logo">News App</div>
+                <div className="logo">Newsefy</div>
                 <div className="links">
-                    <ul>
+                    {/* <ul>
                         <li>Home</li>
                         <li>About</li>
                         <li>Blog</li>
                         <li>Contact</li>
-                    </ul>
+                    </ul> */}
                 </div>
             </nav>
         </div>

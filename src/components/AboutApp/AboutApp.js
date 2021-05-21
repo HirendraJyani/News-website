@@ -13,7 +13,8 @@ function AboutApp() {
             <h2 className="aboutHead2">Meet the app that puts world's trending news in your hand</h2>
             <div className="aboutAppSections">
             <div className="leftAboutSection">
-                {<lottie-player src="https://assets6.lottiefiles.com/packages/lf20_zezv30bd.json"  background="transparent"  speed="1"  style={{width: '100%', height: '70vh'}}  loop autoplay></lottie-player>}
+            {<lottie-player src="https://assets1.lottiefiles.com/packages/lf20_omx0dcm2.json"  background="transparent"  speed="1"  style={{width: '100%', height: '60vh'}}  loop autoplay></lottie-player>}
+                {/* {<lottie-player src="https://assets6.lottiefiles.com/packages/lf20_zezv30bd.json"  background="transparent"  speed="1"  style={{width: '100%', height: '70vh'}}  loop autoplay></lottie-player>} */}
             </div>
             <div className="rightAboutSection">
                 <h3 className="aboutHead3">Make your workouts work for you </h3>
