@@ -21,12 +21,12 @@
 }
 
 .leftAboutSection{
-    flex: .4;
-    margin-left: 10%;
+    flex: .5;
+    /* margin-left: 10%; */
 }
 
 .rightAboutSection{
-    flex: .6;
+    flex: .5;
 }
 
 .aboutHead3{
