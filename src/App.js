@@ -1,4 +1,5 @@
 import './App.css';
+import Footer from './components/Footer/Footer';
 import AboutApp from './components/AboutApp/AboutApp';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
@@ -13,6 +14,7 @@ function App() {
       <HowItWorks />
       <SuccessStory />
       <AboutApp />
+      <Footer />
     </div>
   );
 }
