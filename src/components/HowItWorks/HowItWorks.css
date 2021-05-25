@@ -124,7 +124,7 @@
     }
 
     .item {
-        margin: auto;
+        margin:5% auto;
         text-align: center;
         font-size: .9rem;
         flex-direction: row;
