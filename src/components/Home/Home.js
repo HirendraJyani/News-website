@@ -4,10 +4,9 @@ import './Home.css'
 function Home() {
     return (
         <div className="home">
-            <div className="leftContent">
-                <h1 className="headText1">Trending News</h1> 
-                <h1 className="headText2"> From All Over World</h1>
-                <p className="headPar">stay tune with trending news from all over the world</p>
+            <div className="leftContent"> 
+                <h1 className="headText2"> Newsefy - world's first short video news platform</h1>
+                <p className="headPar">Newsefy keeps you updated with verified news just under 30 seconds</p>
                 <button className="headBut1">Coming soon</button>
                 <button className="headBut3">Coming soon</button>
             </div>

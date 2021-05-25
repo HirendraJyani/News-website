@@ -9,8 +9,8 @@ function SuccessStory() {
             </div>
             <div className="rightStorySection">
                 <h3 className="successStoryHead1">Our Story</h3>
-                <h2 className="successStoryHead2">Be our Success Story </h2>
-                <p className="successStoryPar">Thousands of people are started to like Newsefy, if you are one of them, then tell us what is your story about Newsefy that makes you think that Nesefy is the best.</p>
+                <h2 className="successStoryHead2">Making news more news </h2>
+                <p className="successStoryPar">We were being fed up of media serving entertainment in name of news .we want to make news more news more consumable more simplified and more time saving.</p>
 
                      
                 <button className="headBut2">Coming Soon</button>

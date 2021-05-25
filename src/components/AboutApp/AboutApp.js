@@ -18,7 +18,7 @@ function AboutApp() {
             </div>
             <div className="rightAboutSection">
                 <h3 className="aboutHead3">Start your day with short and infomative news </h3>
-                <p className="aboutHead4">This app will provide you 30 second videos which will give you lot of information that you need to know.</p>
+                <p className="aboutHead4">Providing news in consumable formats like 30 second video's , Stories in infographics and summeries of complex reads.</p>
 
                 <div className="aboutItems">
                     <div className="aboutItemSect">
@@ -33,7 +33,7 @@ function AboutApp() {
                             <img src={newspaper} className ="aboutItemImg" alt="newspaper"/>
                         </div>
 
-                        <p> Trending News</p>
+                        <p> More News</p>
 
                     </div>
                     <div className="aboutItemSect">
@@ -41,7 +41,7 @@ function AboutApp() {
                             <img src={news} className ="aboutItemImg" alt="newspaper"/>
                         </div>
 
-                        <p> Latest News</p>
+                        <p> Updated</p>
 
                     </div>
                     <div className="aboutItemSect">
@@ -49,7 +49,7 @@ function AboutApp() {
                             <img src={envelope} className ="aboutItemImg" alt="newspaper"/>
                         </div>
 
-                        <p>Short but Informative</p>
+                        <p>Time Saving</p>
 
                     </div>
                 </div>
@@ -69,7 +69,7 @@ function AboutApp() {
                             <img src={newspaper} className ="aboutItemImg" alt="newspaper"/>
                         </div>
 
-                        <p> Trending News</p>
+                        <p> More News</p>
 
                     </div>
                     <div className="aboutItemSect2">
@@ -77,7 +77,7 @@ function AboutApp() {
                             <img src={news} className ="aboutItemImg" alt="newspaper"/>
                         </div>
 
-                        <p> Latest News</p>
+                        <p> Updated</p>
 
                     </div>
                     <div className="aboutItemSect2">
@@ -85,7 +85,7 @@ function AboutApp() {
                             <img src={envelope} className ="aboutItemImg" alt="newspaper"/>
                         </div>
 
-                        <p> Short but Informative</p>
+                        <p> Time Saving</p>
 
                     </div>
                 </div>

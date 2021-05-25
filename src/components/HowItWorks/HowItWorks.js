@@ -10,15 +10,15 @@ function HowItWorks() {
     return (
         <div className="howItWorks">
             <h3 className="howItWorksHead1">How it works</h3>
-            <h2 className="howItWorksHead2">Create Your Own Journey</h2>
+            <h2 className="howItWorksHead2">Save time by choosing us.</h2>
             <div className="workItems">
                 <div className="item">
                     <div className="itemStyle1">
                         <img src={brain} alt="think" className ="itemImg" />
                     </div>
                     <div className="itemCont">
-                        <h3>Get Information</h3>
-                        <p style={{fontWeight:'bold', color:'gray'}}>All the unbiased news information in your hand from all over the world in just 30 second short videos.</p>
+                        <h3>Logical news</h3>
+                        <p style={{fontWeight:'bold', color:'gray'}}>we save you from useless and fake news by providing logical and verified new.</p>
                     </div>
                 </div>
                 <div className="item">
@@ -26,8 +26,8 @@ function HowItWorks() {
                         <img src={newspaper} className ="itemImg" alt="newspaper"/>
                     </div>
                     <div className="itemCont">
-                        <h3>Get Latest</h3>
-                        <p style={{fontWeight:'bold', color:'gray'}}>All the latest and trending news which will you never get from any other app.</p>
+                        <h3>Consumable</h3>
+                        <p style={{fontWeight:'bold', color:'gray'}}>we provide news in short video formats and follow long term news in story format's.</p>
                     </div>
                 </div>
                 <div className="item">
