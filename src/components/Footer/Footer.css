@@ -9,23 +9,23 @@
 }
 
 .footerAbout{
-    flex:.4;
+    flex:.5;
     margin-left: 7%;
     padding-right: 4%;
 }
 
 .footerSupport{
     
-    flex:.2;
+    flex:.5;
 }
-
+/* 
 .footerLegal{
-    flex:.2;
+    flex:.1;
 }
 
 .footerSol{
-    flex:.2;
-}
+    flex:.1;
+} */
 
 p{
     font-weight: bold;
