@@ -62,14 +62,14 @@ function AboutApp() {
                             <img src={journalism} className ="aboutItemImg" alt="newspaper"/>
                         </div>
 
-                        <p> Lorem Ipsum</p>
+                        <p> Unbiased News</p>
                     </div>
                     <div className="aboutItemSect2">
                         <div className="aboutItemStyle2">
                             <img src={newspaper} className ="aboutItemImg" alt="newspaper"/>
                         </div>
 
-                        <p> Lorem Ipsum</p>
+                        <p> Trending News</p>
 
                     </div>
                     <div className="aboutItemSect2">
@@ -77,7 +77,7 @@ function AboutApp() {
                             <img src={news} className ="aboutItemImg" alt="newspaper"/>
                         </div>
 
-                        <p> Lorem Ipsum</p>
+                        <p> Latest News</p>
 
                     </div>
                     <div className="aboutItemSect2">
@@ -85,7 +85,7 @@ function AboutApp() {
                             <img src={envelope} className ="aboutItemImg" alt="newspaper"/>
                         </div>
 
-                        <p> Lorem Ipsum</p>
+                        <p> Short but Informative</p>
 
                     </div>
                 </div>
