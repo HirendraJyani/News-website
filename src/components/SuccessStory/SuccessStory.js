@@ -10,14 +10,10 @@ function SuccessStory() {
             <div className="rightStorySection">
                 <h3 className="successStoryHead1">Our Story</h3>
                 <h2 className="successStoryHead2">Be our Success Story </h2>
-                <p className="successStoryPar">It is a long established fact that a reader will be distracted by the readable content 
-                    of a page when looking at its layout. The point of using Lorem Ipsum is that it has a 
-                    more-or-less normal distribution of letters, as opposed to using 'Content here, content 
-                    here', making it look like readable English. Many desktop publishing packages and web page 
-                    editors now use Lorem Ipsum as their default model text.</p>
+                <p className="successStoryPar">Thousands of people are started to like Newsefy, if you are one of them, then tell us what is your story about Newsefy that makes you think that Nesefy is the best.</p>
 
                      
-                <button className="headBut2">Watch our video</button>
+                <button className="headBut2">Coming Soon</button>
             </div>
         </div>
     )

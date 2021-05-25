@@ -17,8 +17,8 @@ function HowItWorks() {
                         <img src={brain} alt="think" className ="itemImg" />
                     </div>
                     <div className="itemCont">
-                        <h3>Set Goal</h3>
-                        <p style={{fontWeight:'bold', color:'gray'}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                        <h3>Get Information</h3>
+                        <p style={{fontWeight:'bold', color:'gray'}}>All the unbiased news information in your hand from all over the world in just 30 second short videos.</p>
                     </div>
                 </div>
                 <div className="item">
@@ -26,8 +26,8 @@ function HowItWorks() {
                         <img src={newspaper} className ="itemImg" alt="newspaper"/>
                     </div>
                     <div className="itemCont">
-                        <h3>Get Trcked</h3>
-                        <p style={{fontWeight:'bold', color:'gray'}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                        <h3>Get Latest</h3>
+                        <p style={{fontWeight:'bold', color:'gray'}}>All the latest and trending news which will you never get from any other app.</p>
                     </div>
                 </div>
                 <div className="item">
@@ -35,8 +35,8 @@ function HowItWorks() {
                         <img src={trophy} className ="itemImg" alt="trophy" />
                     </div>
                     <div className="itemCont">
-                        <h3>See Results</h3>
-                        <p style={{fontWeight:'bold', color:'gray'}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                        <h3>At first place</h3>
+                        <p style={{fontWeight:'bold', color:'gray'}}>Newsefy delivers short and also informative news.It's because we want our user to get more information in less time </p>
                     </div>
                 </div>
             </div>

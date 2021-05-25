@@ -17,8 +17,8 @@ function AboutApp() {
                 {/* {<lottie-player src="https://assets6.lottiefiles.com/packages/lf20_zezv30bd.json"  background="transparent"  speed="1"  style={{width: '100%', height: '70vh'}}  loop autoplay></lottie-player>} */}
             </div>
             <div className="rightAboutSection">
-                <h3 className="aboutHead3">Make your workouts work for you </h3>
-                <p className="aboutHead4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+                <h3 className="aboutHead3">Start your day with short and infomative news </h3>
+                <p className="aboutHead4">This app will provide you 30 second videos which will give you lot of information that you need to know.</p>
 
                 <div className="aboutItems">
                     <div className="aboutItemSect">
@@ -26,14 +26,14 @@ function AboutApp() {
                             <img src={journalism} className ="aboutItemImg" alt="newspaper"/>
                         </div>
 
-                        <p> Lorem Ipsum</p>
+                        <p> Unbiased News</p>
                     </div>
                     <div className="aboutItemSect">
                         <div className="aboutItemStyle2">
                             <img src={newspaper} className ="aboutItemImg" alt="newspaper"/>
                         </div>
 
-                        <p> Lorem Ipsum</p>
+                        <p> Trending News</p>
 
                     </div>
                     <div className="aboutItemSect">
@@ -41,7 +41,7 @@ function AboutApp() {
                             <img src={news} className ="aboutItemImg" alt="newspaper"/>
                         </div>
 
-                        <p> Lorem Ipsum</p>
+                        <p> Latest News</p>
 
                     </div>
                     <div className="aboutItemSect">
@@ -49,7 +49,7 @@ function AboutApp() {
                             <img src={envelope} className ="aboutItemImg" alt="newspaper"/>
                         </div>
 
-                        <p> Lorem Ipsum</p>
+                        <p>Short but Informative</p>
 
                     </div>
                 </div>

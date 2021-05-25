@@ -9,7 +9,7 @@ function Home() {
                 <h1 className="headText2"> From All Over World</h1>
                 <p className="headPar">stay tune with trending news from all over the world</p>
                 <button className="headBut1">Download app</button>
-                <button className="headBut3">Watch our video</button>
+                <button className="headBut3">Coming soon</button>
             </div>
             <div className="rightContent">
                 <div className="homeIllusrtration">
